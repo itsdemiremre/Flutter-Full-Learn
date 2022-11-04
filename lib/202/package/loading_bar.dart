@@ -9,7 +9,7 @@ class LoadingBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SpinKitPianoWave(
-      color: Colors.white,
+      color: Colors.amber,
       size: size ?? _defaultSize,);
   }
 }

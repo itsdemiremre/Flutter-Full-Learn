@@ -15,10 +15,17 @@ class _PackageLearnViewState extends State<PackageLearnView> with TickerProvider
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      floatingActionButton: FloatingActionButton(onPressed: () {
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Theme.of(context).buttonTheme.colorScheme?.onPrimary,
+        onPressed: () {
         canLaunchUrlString("https://pub.dev/packages/url_launcher");
       },),
-      body: const LoadingBar(),
+      body: Column(
+        children: [
+          Text("a",style: Theme.of(context).textTheme.subtitle1),
+          const LoadingBar(),
+        ],
+      ),
     );
   }
   
