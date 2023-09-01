@@ -24,6 +24,7 @@ import 'package:flutter_full_learning/101/textfield_learn.dart';
 import 'package:flutter_full_learning/202/Service/service_learn_get_view.dart';
 import 'package:flutter_full_learning/202/Service/service_post_learn_view.dart';
 import 'package:flutter_full_learning/202/animated_learn_view.dart';
+import 'package:flutter_full_learning/202/form_learn_view.dart';
 import 'package:flutter_full_learning/202/image_learn_202.dart';
 import 'package:flutter_full_learning/202/model_learn_view.dart';
 import 'package:flutter_full_learning/202/oop_learn_view.dart';
@@ -75,7 +76,7 @@ class MyApp extends StatelessWidget {
       // systemOverlayStyle: SystemUiOverlayStyle.light,
       // backgroundColor: Colors.transparent, elevation: 0,)),
 
-             home: OOPLearnView(),
+             home: FormLearnView(),
     );
   }
 }
